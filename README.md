@@ -36,3 +36,9 @@ RUN npm run build
 
 CMD [ "npm", "run", "start" ]
 ```
+
+## cloudbuild Setup
+
+```bash
+_SERVICE_NAME: aumlnwza007-api
+```
