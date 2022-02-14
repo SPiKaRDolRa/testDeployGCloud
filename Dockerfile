@@ -5,10 +5,10 @@ WORKDIR /usr/src/app
 COPY . ./
 RUN npm install
 
-EXPOSE 8888
+EXPOSE 8080
 
 ENV HOST=0.0.0.0
-ENV PORT=8888
+ENV PORT=8080
 
 RUN npm run build
 
